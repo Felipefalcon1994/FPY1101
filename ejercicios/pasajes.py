@@ -13,7 +13,7 @@ for i in range (cantidadPasajes):
        valorPasaje = int(input("Ingrese valor: "))
     except:
         print("Solo se permite un valor numérico.")
-        break
+        
     totalIngresos += valorPasaje 
 
 print(f"El total de ingresos por la venta de {i+1} pasajes es de: {totalIngresos}.")   
